@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 .DS_Store
+=======
+>>>>>>> 119ad870b67d9d9198ea1ec9feea365fdf41bdae
 # built application files
 *.apk
 *.ap_
@@ -18,4 +21,8 @@ local.properties
 
 # Eclipse project files
 .classpath
+<<<<<<< HEAD
 .project
+=======
+.project
+>>>>>>> 119ad870b67d9d9198ea1ec9feea365fdf41bdae
