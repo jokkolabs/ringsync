@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="@string/app_name">
+                <EditTextPreference
+                android:title="@string/pref_gateway_url"
+                android:summary="@string/pref_gateway_url_summary"
+                android:key="gatewayUrl"
+                android:defaultValue="http://192.168.5.112:8888/ringsync" />
+        </PreferenceCategory>
+</PreferenceScreen>

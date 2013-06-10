@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RingSync</string>
+    <string name="action_settings">Settings</string>
+    <string name="pref_gateway_url">URL du serveur</string>
+    <string name="pref_gateway_url_summary">De la forme http://192.168.1.1:8080/ringsync</string>
+    <string name="menu_settings">Préférences</string>
+    <string name="refresh">Réessayer maintenant</string>
+    <string name="error_message">Erreur ! Impossible de se connecter au serveur. Veuillez vérifier l\'adresse dans les préférences ainsi que sur le serveur et réessayer.</string>
+    <string name="connection_status">État de la connexion :</string>
+    <string name="number_of_call_forwarded">Appels transmis :</string>
+    <string name="unknown">Inconnu</string>
+    <string name="stop">Arreter</string>
+
+</resources>

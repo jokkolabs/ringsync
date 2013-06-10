@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RingController" >
+
+    <TextView
+        android:id="@+id/connectionstatuslabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/connection_status"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/connectionstatustext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/connectionstatuslabel"
+        android:layout_alignBottom="@+id/connectionstatuslabel"
+        android:layout_alignParentRight="true"
+        android:text="@string/unknown"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/numberofcallslabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/connectionstatuslabel"
+        android:layout_below="@+id/connectionstatuslabel"
+        android:layout_marginTop="16dp"
+        android:text="@string/number_of_call_forwarded"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/numberofcallstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/numberofcallslabel"
+        android:layout_alignBottom="@+id/numberofcallslabel"
+        android:layout_alignRight="@+id/connectionstatustext"
+        android:text="@string/unknown"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/refreshbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/numberofcallslabel"
+        android:layout_alignRight="@+id/connectionstatustext"
+        android:layout_below="@+id/numberofcallslabel"
+        android:layout_marginTop="25dp"
+        android:text="@string/refresh" />
+
+    <Button
+        android:id="@+id/stopbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/refreshbutton"
+        android:layout_alignRight="@+id/connectionstatustext"
+        android:layout_below="@+id/refreshbutton"
+        android:layout_marginTop="24dp"
+        android:text="@string/stop" />
+
+</RelativeLayout>
